@@ -30,6 +30,7 @@ local kind_presets = {
     Event = "",
     Operator = "󰆕",
     TypeParameter = "",
+    Cody = "󰞶",
   },
   codicons = {
     Text = "",
@@ -57,6 +58,7 @@ local kind_presets = {
     Event = "",
     Operator = "",
     TypeParameter = "",
+    Cody = "󰞶",
   },
 }
 
@@ -86,8 +88,9 @@ local kind_order = {
   "Event",
   "Operator",
   "TypeParameter",
+  "Cody",
 }
-local kind_len = 25
+local kind_len = #kind_order
 
 local function get_symbol(kind)
   local symbol = lspkind.symbol_map[kind]

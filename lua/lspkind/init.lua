@@ -30,7 +30,7 @@ local kind_presets = {
     Event = "",
     Operator = "󰆕",
     TypeParameter = "",
-    Cody = "󰞶",
+    Cody = "",
   },
   codicons = {
     Text = "",
@@ -58,7 +58,7 @@ local kind_presets = {
     Event = "",
     Operator = "",
     TypeParameter = "",
-    Cody = "󰞶",
+    Cody = "",
   },
 }
 
